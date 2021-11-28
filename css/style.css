@@ -1,0 +1,109 @@
+body {
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 20px;
+   line-height: 1.5em;
+   margin: 0;
+   padding: 0;
+   width: 100%;
+   color: rgb(211, 199, 87);
+   }
+    
+   #grid {
+       display: grid;
+       display: -ms-grid;
+       grid-template-columns: 20% 80%;
+       -ms-grid-columns: 20% 80%;
+       grid-gap: 0px;
+       background: rgb(117, 112, 135);
+       padding: 5px;
+   }
+    
+   #grid-column1 {
+       background-color: rgba(11, 89, 91, 0.5);
+       padding: 25px;
+       color:rgb(250, 245, 194)
+   }
+   #grid-column2 {
+       background-color: rgb(224, 249, 244);
+       line-height: 1.5em;
+       list-style: none;
+       padding: 15px 15px 0px 20px;
+       text-decoration: none;
+   }
+    
+   #headshot {
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       width: 90%;
+       border-radius: 45px;
+   }
+    
+   h1 {
+       color:rgb(65, 27, 155);
+       font-size: 2.55em;
+       font-weight: bold;
+       text-align: center;
+       line-height: 3rem;
+   }
+    
+   h2 {
+       color:rgb(211, 199, 87);
+       font-size: 2.0em;
+   }
+    
+   .col1Header {
+       font-size: 1.75em;
+       text-align: center;
+   }
+    
+   #TechInventory {
+       text-align: center;
+   }
+    
+    
+   #githublogo {
+       width: 50px;
+       height: 50px;
+   }
+    
+   #wccilogo {
+       width: 100px;
+       height: 50px;
+   }
+    
+   .projcompanyschool {
+       font-size: 2.25rem;
+       color:rgb(65, 27, 155);
+   }
+    
+   .titledegree {
+       font-size: 1.75rem;
+       color:rgba(63, 179, 205, 0.783);
+       padding-left: 20px;
+   }
+   .details {
+       padding-left: 20px;
+       color:rgb(161, 149, 39);
+   }
+   .duties {
+       font-size: 1rem;
+       color:rgb(161, 149, 39);
+       padding-left: 35px;
+   }
+    
+   a {
+       text-decoration: none;
+   }
+    
+   li {
+       font-size: 20px;
+       color: rgb(161, 149, 39);
+   }
+    
+   .contactLinks {
+       font-size: 1.15em;
+       text-decoration: none;
+       color:rgb(250, 245, 194);
+   }
+   
